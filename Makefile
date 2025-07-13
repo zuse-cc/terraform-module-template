@@ -18,11 +18,8 @@ package: out/$(PACKAGE_FILE)
 clean:
 	rm -rf out
 
-.terraform:
-	terraform init
-
 .PHONY: test
-test: .terraform
+test:
 	terraform init -upgrade
 	terraform test
 
