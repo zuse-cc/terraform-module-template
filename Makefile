@@ -23,7 +23,7 @@ clean:
 
 .PHONY: test
 test: .terraform
-	terraform init
+	terraform init -upgrade
 	terraform test
 
 .PHONY: check-fmt
