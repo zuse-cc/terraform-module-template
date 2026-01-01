@@ -10,7 +10,15 @@ Terraform, `jq` and a recent version of the [`Github CLI`](https://cli.github.co
 
 Usage instructions go here...
 
-## Tests
+### Code Formatting
+
+To format all Terraform code, test and tfvars files:
+
+```sh
+make fmt
+```
+
+### Tests
 
 The following will run all included Terraform tests locally:
 
