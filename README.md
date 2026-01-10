@@ -4,7 +4,7 @@ Terraform module to build great things in the cloud.
 
 ## Prerequisites
 
-Terraform, `jq` and a recent version of the [`Github CLI`](https://cli.github.com/) are required.
+Terraform, `jq` and a recent version of the [Github CLI](https://cli.github.com/) are required.
 
 ## Usage
 
